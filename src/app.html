@@ -6,6 +6,7 @@
 		<meta name="text-scale" content="scale" />
 		<script>
 			(function () {
+				// key must match STORAGE_KEY in lib/state/theme.svelte.ts
 				var theme = 'dark';
 				try {
 					if (localStorage.getItem('theme') === 'light') theme = 'light';

@@ -1,5 +1,6 @@
 export type Theme = 'dark' | 'light';
 
+// key must match the inline script in app.html
 const STORAGE_KEY = 'theme';
 
 let current = $state<Theme>('dark');
